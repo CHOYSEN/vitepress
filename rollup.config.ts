@@ -61,6 +61,8 @@ const esmBuild: RollupOptions = {
   }
 }
 
+console.log(2)
+
 const cjsBuild: RollupOptions = {
   input: [r('src/node/index.ts'), r('src/node/cli.ts')],
   output: {
